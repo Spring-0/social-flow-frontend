@@ -7,9 +7,9 @@ function App() {
       <div className="flex">
 
         {/* Side Panel */}
-          <div className="h-screen">
-            <SidePanel />
-          </div>
+        <div className="h-screen">
+          <SidePanel />
+        </div>
 
         {/* Main */}
         <div className="flex w-full flex-col h-screen overflow-x-hidden">
@@ -31,7 +31,10 @@ function App() {
           <div className="bg-purple-300 flex-1">
             <div className="m-12 backdrop-filter bg-purple-400 rounded-3xl shadow-white shadow-2xl">
               <div className="flex flex-wrap justify-center items-center">
-
+                <Card />
+                <Card />
+                <Card />
+                <Card />
               </div>
             </div>
           </div>
