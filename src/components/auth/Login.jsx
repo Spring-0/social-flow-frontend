@@ -44,22 +44,6 @@ export default function Login() {
                         />
                     </div>
 
-                    {/* confirm password */}
-                    <div className='flex flex-col'>
-                        <label
-                            className='mb-2 font-medium text-white'
-                            htmlFor='confirmPassword'
-                        >
-                            Confirm Password
-                        </label>
-                        <input
-                            className='px-3 py-2 border rounded-lg'
-                            id='confirmPassword'
-                            type='password'
-                            placeholder='Confirm Password'
-                        />
-                    </div>
-
                     {/* submit button */}
                     <button
                         className='py-2 font-bold text-white rounded-lg bg-sky-500 hover:bg-sky-600'
