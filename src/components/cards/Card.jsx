@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <div>
       <div className='m-5'>
-        <div className='h-auto max-w-[30vh] min-w-[30vh] min-h-[30vh] bg-purple-100 flex flex-col text-center rounded-xl border-black border hover:scale-[1.13] hover:shadow-white shadow-lg duration-300'>
+        <div className='h-auto max-w-[30vh] min-w-[30vh] min-h-[30vh] bg-purple-100 flex flex-col text-center rounded-xl border-black border hover:scale-[1.13] hover:shadow-purple-300 shadow-lg duration-300'>
           <header className='w-full border-b border-black py-3'>
             <h1 className=' text-2xl font-normal'>{props.title}</h1>
           </header>
