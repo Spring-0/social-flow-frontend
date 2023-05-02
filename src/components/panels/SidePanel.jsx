@@ -55,9 +55,9 @@ export default function SidePanel() {
                             <div
 
                             >
-                                <div className='text-white flex flex-col items-center'>
+                                <div className='flex flex-col items-center text-white'>
 
-                                    <div className='p-5 mb-10 mt-5 hover:bg-purple-500 rounded-xl flex'>
+                                    <div className='flex p-5 mt-5 mb-10 hover:bg-purple-500 rounded-xl'>
                                         <button onClick={() => {
                                             setShown(!isShown)
                                         }}>
@@ -67,14 +67,13 @@ export default function SidePanel() {
 
                                     <div>
                                         <ul className=''>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaHome size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaTachometerAlt size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaUsers size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaChartBar size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaBalanceScale size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaCog size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaQuestionCircle size={20} /></a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-5 mb-4'><a href="#"><FaArrowCircleUp size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="/dashboard"><FaTachometerAlt size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="/accounts"><FaUsers size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaChartBar size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaBalanceScale size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaCog size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaQuestionCircle size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaArrowCircleUp size={20} /></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -92,8 +91,8 @@ export default function SidePanel() {
                                 <div>
                                     <div
 
-                                        className='mb-8 border-b pl-5 p-8 flex justify-between pr-3'>
-                                        <h1 className='font-bold tracking-wide text-2xl bg-pink-purple-blue bg-clip-text text-transparent'>Social-Flow</h1>
+                                        className='flex justify-between p-8 pl-5 pr-3 mb-8 border-b'>
+                                        <button className='pb-2 text-white hover:underline underline-offset-8'><a href='/' className='text-2xl font-bold tracking-wide text-transparent bg-pink-purple-blue bg-clip-text'>Social-Flow</a></button>
                                         <button className="text-white" onClick={() => {
                                             setShown(!isShown)
                                         }}>
@@ -101,17 +100,14 @@ export default function SidePanel() {
                                         </button>
                                     </div>
 
-                                    <div className='flex flex-col text-white'>
-                                        <ul className='w-full'>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Home</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Dashboard</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Media Accounts</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Analytics</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Competitor Analysis</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Settings</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Support</a></li>
-                                            <li className='hover:bg-purple-500 rounded-xl p-4 mb-3 pl-7 mx-2'><a href="#">Upgrade</a></li>
-                                        </ul>
+                                    <div className='flex flex-col w-full text-white'>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="/dashboard">Dashboard</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="/accounts">Media Accounts</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Analytics</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Competitor Analysis</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Settings</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Support</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Upgrade</a>
                                     </div>
                                 </div>
                             </motion.div>
