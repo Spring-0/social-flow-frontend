@@ -17,7 +17,7 @@ export default function AccountsPage() {
   return (
     <div className='flex w-screen h-screen bg-purple-400'>
       <SidePanel />
-      <div className='flex flex-wrap mb-[1000px] justify-center'>
+      <div className='flex flex-wrap justify-center overflow-x-hidden'>
         <MediaConnectCard 
           image={instagram}
           platform={"Instagram"}

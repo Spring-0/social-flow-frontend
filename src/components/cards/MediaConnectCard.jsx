@@ -10,7 +10,7 @@ export default function MediaConnectCard(props) {
                 <img src={props.image}/>
             </div>
             <div className='flex flex-col items-center justify-end w-full mt-3 text-red-400'>
-                <button className='px-5 py-1 text-white bg-blue-500 rounded-full'>Connect</button>
+                <button className='px-5 py-1 text-white bg-blue-500 rounded-full hover:bg-blue-400'>Connect</button>
                 <h1>{props.status}</h1>
             </div>
         </div>
