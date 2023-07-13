@@ -4,6 +4,7 @@ import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
 import DashboardPage from './pages/DashboardPage'
 import AccountsPage from './pages/AccountsPage'
+import AnalyticsPage from './pages/AnalyticsPage'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
                     <Route path='/register' element={<RegisterPage />} />
                     <Route path='/login' element={<LoginPage />} />
                     <Route path='/dashboard' element={<DashboardPage />} />
-                    <Route path='accounts' element={<AccountsPage />} />
+                    <Route path='/accounts' element={<AccountsPage />} />
+                    <Route path='/analytics' element={<AnalyticsPage />} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -69,7 +69,7 @@ export default function SidePanel() {
                                         <ul className=''>
                                             <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="/dashboard"><FaTachometerAlt size={20} /></a></li>
                                             <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="/accounts"><FaUsers size={20} /></a></li>
-                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaChartBar size={20} /></a></li>
+                                            <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="/analytics"><FaChartBar size={20} /></a></li>
                                             <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaBalanceScale size={20} /></a></li>
                                             <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaCog size={20} /></a></li>
                                             <li className='p-5 mb-4 hover:bg-purple-500 rounded-xl'><a href="#"><FaQuestionCircle size={20} /></a></li>
@@ -103,7 +103,7 @@ export default function SidePanel() {
                                     <div className='flex flex-col w-full text-white'>
                                         <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="/dashboard">Dashboard</a>
                                         <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="/accounts">Media Accounts</a>
-                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Analytics</a>
+                                        <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="/analytics">Analytics</a>
                                         <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Competitor Analysis</a>
                                         <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Settings</a>
                                         <a className='p-4 mx-2 mb-3 hover:bg-purple-500 rounded-xl pl-7' href="#">Support</a>
