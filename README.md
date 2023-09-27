@@ -23,7 +23,7 @@ To set up the SocialFlow frontend locally, please follow these steps:
 
 1. Clone the repository to your local machine:
 
-   `git clone https://github.com/your-username/socialflow-frontend.git`
+   `git clone https://github.com/Spring-0/socialflow-frontend.git`
 2. Navigate to the project directory:
 
    `cd socialflow-frontend`
